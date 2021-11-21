@@ -1,11 +1,11 @@
 import torchvision
-from s8.dataloader.load_data import *
+from S8.dataloader.load_data import *
 import torch
 import torch.optim as optim
 import matplotlib.pyplot as plt
 from torch.optim.lr_scheduler import StepLR,OneCycleLR,ReduceLROnPlateau
-from s8.utils import train as trn
-from s8.utils import test as tst
+from S8.utils import train as trn
+from S8.utils import test as tst
 from torchsummary import summary
 
 from pprint import pprint
