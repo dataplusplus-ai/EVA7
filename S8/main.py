@@ -17,7 +17,7 @@ from torch.utils.tensorboard import SummaryWriter
 from torch_lr_finder import LRFinder
 
 
-class TriggerEngine:
+class FindImage:
     def __init__(self, config):
         self.config = config
         self.loader = config['data_loader']['type']
