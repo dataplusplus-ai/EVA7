@@ -5,6 +5,10 @@
 ### Spatial Transformers
 Implement Spatial Transformer Code for CIFAR10 trained for 50 Epochs
 
+Refer this code
+
+https://brsoff.github.io/tutorials/intermediate/spatial_transformer_tutorial.html
+
 ![image](https://user-images.githubusercontent.com/45157166/147867309-46846806-f708-4592-8031-105dbc3298e3.png)
 
 
