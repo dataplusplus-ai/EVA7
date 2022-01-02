@@ -37,7 +37,6 @@ Differentable Image Sampling is mainly used to obtain the original image pixels 
 
 ### Model Architecture
 
-
 Net(
   (conv1): Conv2d(3, 16, kernel_size=(5, 5), stride=(1, 1))
   (conv2): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1))
@@ -59,18 +58,8 @@ Net(
   )
 )
 
-### Training Logs
 
-usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
-  cpuset_checked))
-/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:4066: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
-  "Default grid_sample and affine_grid behavior has changed "
-/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:4004: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
-  "Default grid_sample and affine_grid behavior has changed "
-Train Epoch: 1 [0/50000 (0%)]	Loss: 2.325002
-Train Epoch: 1 [32000/50000 (64%)]	Loss: 2.101725
-/usr/local/lib/python3.7/dist-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
-  warnings.warn(warning.format(ret))
+### Training Logs
 
 Test set: Average loss: 1.8873, Accuracy: 3391/10000 (34%)
 
@@ -318,6 +307,8 @@ Train Epoch: 50 [0/50000 (0%)]	Loss: 0.808927
 Train Epoch: 50 [32000/50000 (64%)]	Loss: 0.715981
 
 Test set: Average loss: 1.0168, Accuracy: 6532/10000 (65%)
+
+
 
 ### Visuaization of STN results
 
