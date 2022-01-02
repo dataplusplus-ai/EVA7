@@ -94,9 +94,9 @@ It has a negative coefficient, which shifts to a positive coefficient. So when x
 
 
 
+Explanation reference
 
-
-
+https://towardsdatascience.com/implementing-visualttransformer-in-pytorch-184f9f16f632
 
 
 
