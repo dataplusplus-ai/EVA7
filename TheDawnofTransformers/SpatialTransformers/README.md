@@ -4,6 +4,9 @@
 
 The spatial transformer module consists of layers of neural networks that can spatially transform an image. These spatial transformations include cropping, scaling, rotations, and translations etc
 
+See the transformationof images through implementation of the code 
+https://github.com/dataplusplus-ai/EVA7/blob/main/TheDawnofTransformers/SpatialTransformers/Spatial_Transformers_CIFAR10.ipynb here
+
 CNNs perform poorly when the input data contains so much variation. One of the solutions to this is the max-pooling layer. But then again, max-pooling layers do not make the CNN invariant image translation.
 
 In STNs, the transformer module knows where to apply the transformation to properly scale, resize, and crop and image. We can apply the STN module to the input data directly, or even to the feature maps (output of a convolution layer). In simple words, we can say that the spatial transformer module acts as an attention mechanism and knows where to focus on the input data.
