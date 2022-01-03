@@ -4,7 +4,9 @@ Followed the steps listed here https://pysource.com/2019/06/27/yolo-object-detec
 
 Took a image with object which is there in COCO data set (search for COCO classes to learn).
 
-Ran this image through the code above
+Ran this image through the code above and the notebook here https://github.com/dataplusplus-ai/EVA7/blob/main/11_yolo/openCV_yoloV3/yolov3_object_detection.ipynb
+
+
 
 Uploaded the annotated image by YOLO OpenCV.
 
@@ -37,3 +39,5 @@ python detect.py --conf-three 0.3 --output output_folder_name
 Use ffmpeg to convert the files in your output folder to video
 
 Upload the video to YouTube.
+
+The notebook here https://github.com/dataplusplus-ai/EVA7/blob/main/11_yolo/custom_yolov3_training/YoloV3_CustomData.ipynb
