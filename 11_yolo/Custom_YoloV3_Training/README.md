@@ -14,6 +14,8 @@
 
 ## Inference on a short video clip of 12 seconds
 
+https://www.youtube.com/watch?v=pO-gIPDtzaY&feature=youtu.be
+
 
 
 
