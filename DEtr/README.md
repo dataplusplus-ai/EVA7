@@ -147,4 +147,5 @@ errors (cardinality error, class error).
 
 ### validation Image
 
-https://github.com/dataplusplus-ai/EVA7/blob/main/DEt
+![image](https://user-images.githubusercontent.com/45157166/151703242-d7005511-32fa-4f8c-99b3-b2d8fa23fe67.png)
+
